@@ -11,8 +11,7 @@ const fetchPokemon = async () => {
         return {
             name: data.name,
             id: index+1,
-            image: `https://raw.githubusercontent.com/
-                    PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`,
+            image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`,
         }
     })
 
